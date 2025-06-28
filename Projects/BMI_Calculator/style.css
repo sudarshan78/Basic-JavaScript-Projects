@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+     background-color: rgb(34, 34, 34);
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: "Segoe UI";
+    margin-bottom: 150px;
+}
+
+nav span{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+nav span a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color:antiquewhite;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+form{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+p{
+    color: black;
+    font-size: 1rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    padding-left: 60px;
+
+}
+input{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+}
+h1{
+   font-family: 'Segoe UI';
+   font-size: 25px;
+   width: 500px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+button{
+   margin: 0 198px;
+   box-sizing: border-box;
+   padding: 10px 20px;
+   font-family: 'Segoe UI';
+   font-size: 15px;
+   color: black;
+   font-weight: 600;
+   border-radius: 15px;
+   margin-top: 30px; 
+   cursor: pointer;
+}
+
+.Guide-heading{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: black;
+    text-align:left;
+    text-decoration: underline;
+    margin: 10px;
+    padding-left: 40px;
+}
+
+#result{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+    color: rgb(1, 68, 18);
+}
+
+#weight-range{
+     font-family: 'Segoe UI';
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    color: rgb(1, 68, 18);
+}

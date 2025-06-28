@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+body{
+    background-color: rgb(34, 34, 34);
+    color: rgb(56, 54, 54);
+    font-family: 'Segoe UI';
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: "Segoe UI";
+    margin-bottom: 150px;
+}
+
+nav span{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+nav span a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 200px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+h2{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background-color: gary;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 5px rgb(58, 57, 57);
+    margin: 0 90px;
+
+}
+
+button:active{
+    box-shadow: 2px 0 rgb(36, 36, 36);
+    background-color: rgb(146, 121, 121);
+    transform: translateY(5px);
+}

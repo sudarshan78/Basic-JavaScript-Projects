@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+     background-color: rgb(34, 34, 34);
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: "Segoe UI";
+    margin-bottom: 150px;
+}
+
+nav span{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+nav span a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: #ec14e1;
+    padding-top: 20px;
+    border-radius: 15px;   
+}
+
+.container p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+form{
+    margin: 50px 100px;
+    height: 138px;
+    width: 300px;
+   
+}
+#guess{
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 20px;
+    
+}
+#guessField{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 30px;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+}
+
+#submitBtn{
+    font-family: 'Segoe UI';
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 88px;
+    background-color: gray;
+    color: aliceblue;
+    border: 2px solid white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 5px rgb(58, 57, 57);
+
+}
+#submitBtn:active{
+    box-shadow: 2px 0 rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36);
+    transform: translateY(4px);
+}
+
+#result p{
+    font-size: 1.2rem;
+}
